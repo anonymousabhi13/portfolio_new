@@ -3,11 +3,11 @@ import { FaPhoneAlt, FaEnvelope, FaFacebookF, FaInstagram, FaTelegramPlane } fro
 
 const ContactInfo = () => {
   const contactDetails = [
-    { icon: <FaPhoneAlt />, text: '+92 333 6729529, +92 386729318', link: 'tel:+923336729529' },
-    { icon: <FaEnvelope />, text: 'kazimahmad.business@gmail.com', link: 'mailto:kazimahmad.business@gmail.com' },
-    { icon: <FaFacebookF />, text: 'facebook.com/kazimahmad.22', link: 'https://www.facebook.com/kazimahmad.22' },
-    { icon: <FaInstagram />, text: 'instagram.com/kazimahmad_22', link: 'https://www.instagram.com/kazimahmad_22' },
-    { icon: <FaTelegramPlane />, text: 't.me/kazimahmad', link: 'https://t.me/kazimahmad' },
+    { icon: <FaPhoneAlt />, text: '+918817836116', link: 'tel:+918817836116' },
+    { icon: <FaEnvelope />, text: 'abhilashpatel687@gmail.com', link: 'mailto:abhilashpatel687@gmail.com' },
+    { icon: <FaFacebookF />, text: 'facebook.com/abhilash', link: 'https://www.facebook.com/' },
+    { icon: <FaInstagram />, text: 'instagram.com//anonymousabhi_13', link: 'https://www.instagram.com/anonymousabhi_13' },
+    { icon: <FaTelegramPlane />, text: 't.me/', link: 'https://t.me/' },
   ];
 
   return (
