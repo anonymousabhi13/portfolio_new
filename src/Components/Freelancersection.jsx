@@ -2,7 +2,7 @@ import React from 'react';
 
 const FreelanceLinks = () => {
   const platforms = [
-    { name: 'Fiverr', url: '#', color: 'text-yellow-400' },
+    { name: 'Fiverr', url: 'https://www.fiverr.com/s/NNp6KBR', color: 'text-yellow-400' },
     { name: 'Upwork', url: '#', color: 'text-yellow-400' },
     { name: 'Guru', url: '#', color: 'text-yellow-400' },
   ];

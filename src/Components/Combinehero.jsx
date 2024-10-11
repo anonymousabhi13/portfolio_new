@@ -6,6 +6,8 @@ import {
   faInstagram,
   faTwitter,
   faTiktok,
+  faGithub,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 const CombinedHero = () => {
@@ -26,30 +28,38 @@ const CombinedHero = () => {
           {/* Rotating Social Icons */}
           <div className="absolute inset-0 flex justify-center items-center">
             <div className="relative w-full h-full animate-spinslow">
-              <div className="absolute top-0 left-[50%] transform -translate-x-[50%]">
-                <FontAwesomeIcon
-                  icon={faFacebook}
-                  className="text-2xl md:text-3xl lg:text-4xl text-blue-600 hover:scale-110 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute left-0 top-[50%] transform -translate-y-[50%]">
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  className="text-2xl md:text-3xl lg:text-4xl text-blue-400 hover:scale-110 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute right-0 top-[50%] transform -translate-y-[50%]">
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="text-2xl md:text-3xl lg:text-4xl text-pink-500 hover:scale-110 transition-transform duration-300"
-                />
-              </div>
-              <div className="absolute bottom-0 left-[50%] transform -translate-x-[50%]">
-                <FontAwesomeIcon
-                  icon={faTiktok}
-                  className="text-2xl md:text-3xl lg:text-4xl text-black hover:scale-110 transition-transform duration-300"
-                />
-              </div>
+              <a href="https://www.linkedin.com/in/abhilash-patel-9939682a4/">
+                <div className="absolute top-0 left-[50%] transform -translate-x-[50%]">
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    className="text-2xl md:text-3xl lg:text-4xl text-blue-600 hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </a>
+              <a href="https://www.facebook.com/abhilash.patel.5891">
+                <div className="absolute left-0 top-[50%] transform -translate-y-[50%]">
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    className="text-2xl md:text-3xl lg:text-4xl text-blue-400 hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </a>
+              <a href="https://www.instagram.com/anonymousabhi_13/">
+                <div className="absolute right-0 top-[50%] transform -translate-y-[50%]">
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className="text-2xl md:text-3xl lg:text-4xl text-pink-500 hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </a>
+              <a href="https://github.com/anonymousabhi13">
+                <div className="absolute bottom-0 left-[50%] transform -translate-x-[50%]">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="text-2xl md:text-3xl lg:text-4xl text-black hover:scale-110 transition-transform duration-300"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
@@ -61,10 +71,10 @@ const CombinedHero = () => {
           Webdesigner
         </h1>
         <h2 className="text-4xl md:text-6xl text-gray-300 font-light text-center -mt-6 md:-mt-8">
-          & Photographer
+          & Developer
         </h2>
         <p className="text-lg md:text-xl text-gray-500 mt-4 text-center">
-          Based in Paris, France.
+          Based in India, Indore.
         </p>
 
         {/* Profile Image */}
@@ -78,12 +88,20 @@ const CombinedHero = () => {
 
         {/* CTA Buttons */}
         <div className="mt-8 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
-          <button className="bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900">
-            You need a designer
-          </button>
-          <button className="border border-black text-black py-2 px-6 rounded-md hover:bg-black hover:text-white">
-            Let's collaborate
-          </button>
+          <a
+            href="https://wa.me/+918817836116?text=I%20need%20a%20designer"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-black text-white py-2 px-6 rounded-md hover:bg-gray-900">
+              You need a designer
+            </button>
+          </a>
+          <a href="https://www.instagram.com/anonymousabhi_13/">
+            <button className="border border-black text-black py-2 px-6 rounded-md hover:bg-black hover:text-white">
+              Let's collaborate
+            </button>
+          </a>
         </div>
       </div>
     </section>
